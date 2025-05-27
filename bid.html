@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bid Now - Car Auction Z</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Place Your Bid</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="cars.html">Cars</a>
+            <a href="bid.html">Bid Now</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <label for="carSelect">Select Car:</label><br>
+        <select id="carSelect">
+            <option value="">-- Choose a car --</option>
+            <option value="BMW X5">BMW X5</option>
+            <option value="BMW M3">BMW M3</option>
+            <option value="BMW 7 Series">BMW 7 Series</option>
+            <option value="TOYOTA Camry">TOYOTA Camry</option>
+            <option value="TOYOTA Corolla">TOYOTA Corolla</option>
+            <option value="TOYOTA Supra">TOYOTA Supra</option>
+            <option value="mustang GT">mustang GT</option>
+            <option value="mustang EcoBoost">mustang EcoBoost</option>
+            <option value="mustang Shelby">mustang Shelby</option>
+        </select><br><br>
+
+        <label for="bidAmount">Enter your bid amount ($):</label><br>
+        <input type="number" id="bidAmount"><br><br>
+
+        <button onclick="submitBid()">Submit Bid</button>
+    </main>
+    <footer>
+        <p>&copy; 2025 Car Auction Z. All rights reserved.</p>
+    </footer>
+</body>
+</html>
